@@ -207,13 +207,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0d5f2f58f0aec3c50a20799792c3705e80dd7df327e79791cacec197e84e5e61"
 
 [[package]]
-name = "bevy-helloworld"
-version = "0.1.0"
-dependencies = [
- "bevy",
-]
-
-[[package]]
 name = "bevy_app"
 version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1216,6 +1209,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9ea835d29036a4087793836fa931b08837ad5e957da9e23886b29586fb9b6650"
 
 [[package]]
+name = "engine"
+version = "0.1.0"
+dependencies = [
+ "helloworld",
+]
+
+[[package]]
 name = "env_logger"
 version = "0.7.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1290,6 +1290,13 @@ name = "fixedbitset"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "398ea4fabe40b9b0d885340a2a991a44c8a645624075ad966d21f88688e2b69e"
+
+[[package]]
+name = "flappy-clone"
+version = "0.1.0"
+dependencies = [
+ "bevy",
+]
 
 [[package]]
 name = "fnv"
@@ -1718,6 +1725,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6d621efb26863f0e9924c6ac577e8275e5e6b77455db64ffa6c65c904e9e132c"
 dependencies = [
  "unicode-segmentation",
+]
+
+[[package]]
+name = "helloworld"
+version = "0.1.0"
+dependencies = [
+ "bevy",
 ]
 
 [[package]]
